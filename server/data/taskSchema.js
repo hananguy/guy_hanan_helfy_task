@@ -20,7 +20,7 @@ const TaskSchema = {
       type: "boolean"
     }
   },
-  required: [],
+  required: ["title"],
   additionalProperties: false
 };
 
