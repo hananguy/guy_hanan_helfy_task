@@ -1,0 +1,22 @@
+.carousel {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel-track {
+  display: flex;
+  align-items: stretch;
+  will-change: transform;
+}
+
+.carousel-item {
+  flex: 0 0 auto;
+  min-width: 340px; /* card width; adjust as needed */
+  padding: 6px;
+}
+
+.tasks-empty {
+  padding: 8px;
+  color: #666;
+}
